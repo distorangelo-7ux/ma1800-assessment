@@ -1,0 +1,35 @@
+.poem {
+    margin: 50px 300px;
+}
+
+.about {
+    background-color: rgb(51, 235, 204);
+    padding: 20px 20px;
+}
+
+.hidden {
+    opacity: 0%;
+}
+
+.hidden:hover {
+    opacity: 100%;
+    color: blue;
+}
+
+.links {
+    background-color: black;
+    width: 100%;
+}
+
+.links a {
+    font-size: 100px;
+}
+
+.links a:hover {
+    color:white;
+    font-size: 125px;
+}
+
+#true_link:hover {
+    color:yellow;
+}
