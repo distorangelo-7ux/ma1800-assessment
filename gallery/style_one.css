@@ -49,6 +49,11 @@ body {
         background-image: url(../assets/tv/aboutpreview.png);
     }
 
+
+    .art {
+        background-image: url(../assets/tv/funpreview.png);
+    }
+
     @keyframes flicker {
         0% {opacity: 75%;}
         100% {opacity: 100%}

@@ -28,11 +28,13 @@ body {
 .failsafe {
     top: 25px;
     left: 500px;
+    transform: skew(-2deg,20deg);
 }
 
 .website {
     bottom: 250px;
     left: 250px;
+    transform: skew(20deg,-30deg);
 }
 
 .freelance {

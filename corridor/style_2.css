@@ -12,6 +12,7 @@ body {
 }
 
 .about {
+    text-align: center;
     background-color: rgb(51, 235, 204);
     padding: 20px 20px;
 }
