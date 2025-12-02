@@ -150,6 +150,10 @@ body {
     align-items: center;
     padding: 0 1rem;
     width: 100%;
+
+    position:absolute;
+    top: 200px;
+    right: 200px;
 }
 
 .button {
