@@ -11,74 +11,7 @@ body {
     background-repeat: repeat;
 }
 
-.termsconditions {
-    border: 1px solid #e5e2e2;
-    background: #424141;
-    height: 200px;
-    width: 100%;
-    position: fixed;
-    bottom:0;
-    z-index: 999;
-}
-
-.slidenormal {
-    animation: slide 3s alternate linear;
-}
-
-.slidefast {
-    animation: slide 0.25s alternate linear;
-}
-
-.slideglitch {
-    animation: slideglitch 0.1s alternate-reverse infinite;
-}
-
-@keyframes slide {
-    0% {transform:translateY(600px)};
-    100% {transform:translateY(-600px)};
-}
-
-@keyframes slideglitch {
-    100% {transform:translateX(-300px)};
-}
-
-.termsconditions_container {
-    display: flex;
-    padding: 25px 25px;
-}
-
-.termswarning {
-    color: #f3f0f0;
-    width: 75%;
-    margin-right: 5%;
-    flex-grow: 2;
-}
-
-.tcbuttons {
-    width: 25%;
-    flex-grow: 1;
-}
-
-.tcb_items {
-    list-style: none;
-}
-
-.tcb_item {
-    margin: 10px 0;
-    padding: 5px 5px;
-    text-align: center;
-    background-color: #3ca1f4;
-}
-
-.tcb_item:hover {
-    background-color: #3d688a;
-}
-
-.tcb_link {
-    font-size: 20px;
-    text-decoration: none;
-    color: #f3f0f0;
-}
+/* CSS for Navigation bar */
 
 .navbar {
     background: #242424d5;
@@ -175,12 +108,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.main {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgb(0, 0, 0)), 
-        url(../assets/happyworker.png);
-}
+/* CSS for content at the top of the page */
 
 .forefront {
     background-image: linear-gradient(
@@ -215,6 +143,15 @@ body {
 
 .forefront_content h2 {
     color: #d7cece;
+}
+
+/* CSS for main content */
+
+.main {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgb(0, 0, 0)), 
+        url(../assets/happyworker.png);
 }
 
 .main_container {
@@ -283,6 +220,8 @@ body {
 .main_btn:hover:after {
     width:100%;
 }
+
+/* CSS for footer */
 
 .footer_container {
     background-color: #353131;
@@ -372,6 +311,8 @@ body {
     width: 2400px;
 }
 
+/* CSS for corruption gimmicks */
+
 #hidden_01 {
     opacity: 0%;
 }
@@ -379,7 +320,6 @@ body {
 #hidden_01:hover {
     opacity: 100%;
 }
-
 
 .main_none {
     background-image: linear-gradient(

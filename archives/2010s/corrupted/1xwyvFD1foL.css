@@ -4,6 +4,8 @@ body {
     background-size: 100%;
 }
 
+/* CSS for the boxed containers across the page */
+
 .container {
     position: absolute;
     color: #e3dede;
@@ -46,6 +48,8 @@ body {
     position: relative;
     top: 1500px;
 }
+
+/* CSS for the grid of square buttons */
 
 .doomed {
 

@@ -1,36 +1,78 @@
-body {
-    background: black;
-}
+body {background: black;}
 
-.table a {
-        display: block;
-    }
+/*Table manipulation*/
+.table a {display: block;}
 
-    table {
+table {
         display: flex;
         width: 537px;
         border-spacing: 0px;
         padding: 0;
     }
 
-    th, td {
+th, td {
         padding-top: 0px;
         padding-bottom: 0px;
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    img {
+img {
         margin: 0px;
         padding: 0px;
     }
 
-    .television_set {
+/* Div. to combine multipart table and the image being displayed */
+.television_set {
         display: flex;
         margin: 20px 20px;
     }
 
-    .tv_image {
+/* Actual television setup */
+.television {
+        z-index: 1;
+        position:absolute;
+        left: 32%;
+        top: 25%;
+    }
+
+/*
+Different cells of the table are labelled with different IDs that determine the corresponding image displayed 
+*/
+#top-left {background-image: url("assets/tv/top-left.png");}
+#bottom-left {background-image: url("assets/tv/bottom-left.png");}
+
+
+/* Interactive cells that change when hovered */
+#top-right {background-image: url("assets/tv/top-right.png");}
+#top-right:hover {background-image: url("assets/tv/top-right-select.png");}
+
+#bottom-right {background-image: url("assets/tv/bottom-right.png");}
+#bottom-right:hover {background-image: url("assets/tv/bottom-right-select.png");}
+
+/* Buttons to accompany interactive table cells */
+#top_button {
+        color:rgb(244, 241, 241);
+        font-size: 2rem;
+        position:relative;
+        top:80px;
+        left:60px;
+        text-decoration: none;
+    }
+#top_button:hover {color:orange;}
+    
+#bottom_button {
+        color:rgb(244, 241, 241);
+        font-size: 2rem;
+        position:relative;
+        bottom: 35px;
+        left:60px;
+        text-decoration: none;
+    }
+#bottom_button:hover {color:orange;}
+
+/* TV image setup */
+.tv_image {
         z-index: -1;
         position:absolute;
         background-image: url(assets/static.gif);
@@ -41,77 +83,15 @@ body {
         animation: flicker 5s ease-in-out infinite;
     }
 
-    .home {
-        background-image: url(assets/previews/home.png);
-    }
+/* 
+Similar to multi-part image, different classes determine what image is displayed 
+*/
+.home {background-image: url(assets/previews/home.png);}
+.about {background-image: url(assets/previews/about.png);}
+.art {background-image: url(assets/previews/fun.png);}
 
-    .about {
-        background-image: url(assets/previews/about.png);
-    }
-
-
-    .art {
-        background-image: url(assets/previews/fun.png);
-    }
-
-    @keyframes flicker {
+/* Simple flicker animation */
+@keyframes flicker {
         0% {opacity: 75%;}
         100% {opacity: 100%}
-    }
-
-    .television {
-        z-index: 1;
-        position:absolute;
-        left: 32%;
-        top: 25%;
-    }
-
-
-    #top-left {
-        background-image: url("assets/tv/top-left.png");
-    }
-    #top-right {
-        background-image: url("assets/tv/top-right.png");
-    }
-    #bottom-left {
-        background-image: url("assets/tv/bottom-left.png");
-    }
-    #bottom-right {
-        background-image: url("assets/tv/bottom-right.png");
-    }
-
-    #top-right:hover {
-        background-image: url("assets/tv/top-right-select.png");
-    }
-
-    #bottom-right:hover {
-        background-image: url("assets/tv/bottom-right-select.png");
-    }
-
-    #top_button {
-        color:rgb(244, 241, 241);
-        font-size: 2rem;
-        position:relative;
-        top:80px;
-        left:60px;
-        text-decoration: none;
-    }
-
-    #top_button:hover {
-        color:orange;
-    }
-    
-    #bottom_button {
-        color:rgb(244, 241, 241);
-        font-size: 2rem;
-        position:relative;
-        bottom: 35px;
-        left:60px;
-        text-decoration: none;
-    
-    
-    }
-
-    #bottom_button:hover {
-        color:orange;
     }

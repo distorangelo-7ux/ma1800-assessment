@@ -3,6 +3,12 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    margin: 0;
+}
+
+/* Navigation bar CSS */
+
 .navbar_container {
     display: flex;
     margin: 20px 20px;
@@ -28,14 +34,12 @@
     cursor: pointer;
 }
 
-body {
-    margin: 0;
-}
-
 .header {
     text-align: center;
     padding: 32px;
 }
+
+/* Gallery CSS */
 
 .column {
     float: left;
@@ -46,6 +50,8 @@ body {
 .column img {
     margin-top: 12px;
 }
+
+/* Different sizes */
 
 .small {
     width:100px;
@@ -64,11 +70,7 @@ body {
     width:200px;
 }
 
-.row:after {
-    content: "";
-    display:table;
-    clear: both;
-}
+/* CSS for the bottom of the page */
 
 .index p {
     font-family:'Times New Roman', Times, serif;
