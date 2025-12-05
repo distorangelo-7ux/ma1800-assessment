@@ -57,7 +57,7 @@ The different pages included different inspirations of mine, so they'll be explo
 This project poses itself as an archival project, and I wanted to reflect that through its file organisation. The project is split between two folders: The archivers' notes and the archives themselves. The latter is more interesting as its subfolders are categorised by the years the snapshots were taken (2002, 2009, 2010s). 
 
 ### Intro ###
-The index page pays homage to the first website, functionally and aesthetically, as I figured this would be a nice way of resonating with the history of the World Wide Web.
+The index page pays homage to [the first website](https://info.cern.ch/hypertext/WWW/TheProject.html), functionally and aesthetically, as I figured this would be a nice way of resonating with the history of the World Wide Web.
 
 The 'first snapshot page' was designed with the intention of following more mainstream approaches to web-design, displaying the commercialisation of artistic websites. For this, I decided it would be best to follow a tutorial on creating 'professional-looking' websites, so I followed Brian Design's [YouTube tutorial](https://youtu.be/FazgJVnrVuI) on creating a fully-responsive website, catered to beginners of HTML, CSS and Javascript (which I did not use). I struggled a lot with understanding the concepts behind the CSS used in the video, so I ended up copy-pasting code without truly understanding what each function did.
 
@@ -101,6 +101,7 @@ If I had more time, I would have loved to create more fun web-pages such as the 
 ## ASSETS CREDITS ##
 [Office worker stock image](https://www.dreamstime.com/royalty-free-stock-photography-portrait-beautiful-smiling-office-worker-image25428617)
 Picture of office from Google search query "office stock image"
+Picture of black background for 2010s gallery is from Google search query "black metal background"
 
 Social media SVGs from [flaticon](https://www.flaticon.com/free-icons/social-media)
 Internet Map from [Opte's Project]((https://www.opte.org/the-internet))
@@ -116,3 +117,11 @@ Search queries included:
 Kirby as a character, published by Nintendo, developed by HAL Laboratory. [GIF from tenor.com](https://tenor.com/en-GB/view/kirby-on-a-warp-star-gif-13217467033803368755)
 
 [TV from iStock](https://www.istockphoto.com/photo/vintage-tv-gm155143334-18400216)
+Cut into different images through [GIMP](https://www.gimp.org/)
+
+tinypic error image from Google search query "tinypic error"
+
+Original assets include:
+- Closing image with friends
+- Left / Right buttons for 2010s gallery page
+- Placeholders logo (2002)
